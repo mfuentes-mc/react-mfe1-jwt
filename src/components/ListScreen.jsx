@@ -1,5 +1,4 @@
 import React from 'react'
-import clientAxios from '../services/config/axios';
 export const ListScreen = async () => {
     const token=localStorage.getItem('token');
     console.log('TOKEN->',token);
