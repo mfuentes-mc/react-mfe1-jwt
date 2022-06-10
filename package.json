@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack --mode production  --config webpack.prod.js",
     "build:dev": "webpack --mode development",
-    "build:start": "cd dist && PORT=3001 npx serve",
+    "build:start": "cd dist && PORT=3000 npx serve",
     "start": "node server.js",
     "dev": "webpack serve --open --mode development",
     "heroku-postbuild": "npm run build",
@@ -15,6 +15,10 @@
   "author": {
     "name": "Jack Herrington",
     "email": "jherr@pobox.com"
+  },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
