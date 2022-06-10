@@ -6,7 +6,7 @@
     module.exports = {
     mode: "production",
     output: {
-        publicPath: "http://react-shell-jwt.herokuapp.com/",
+        publicPath: "/",
         chunkFilename: "[name].[contenthash].js",
         filename: "[name].[contenthash].js",
     },
