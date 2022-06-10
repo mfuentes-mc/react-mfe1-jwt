@@ -48,6 +48,9 @@
         new ModuleFederationPlugin({
         name: "react_mfe1_jwt",
         filename: "remoteEntry.js",
+        exposes:{
+            './ListScreen': './src/components/ListScreen.jsx'
+        },
         shared: {
             ...deps,
             react: {
