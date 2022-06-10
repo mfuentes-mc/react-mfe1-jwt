@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack --mode production  --config webpack.prod.js",
     "build:dev": "webpack --mode development",
-    "build:start": "cd dist && PORT=3000 npx serve",
+    "build:start": "cd dist && PORT=3001 npx serve",
     "start": "node server.js",
     "dev": "webpack serve --open --mode development",
     "heroku-postbuild": "npm run build",

@@ -1,5 +1,5 @@
 import React from 'react'
-export const ListScreen = async () => {
+export const ListScreen = () => {
     const token=localStorage.getItem('token');
     console.log('TOKEN->',token);
     return (       
