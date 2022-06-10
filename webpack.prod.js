@@ -6,7 +6,7 @@
     module.exports = {
     mode: "production",
     output: {
-        publicPath: "http://react-shell-jwt.herokuapp.com/",
+        publicPath: "http://react-mfe1-jwt.herokuapp.com/",
         chunkFilename: "[name].[contenthash].js",
         filename: "[name].[contenthash].js",
     },
@@ -49,8 +49,8 @@
         name: "react_mfe1_jwt",
         filename: "remoteEntry.js",
         exposes:{
-            './ListScreen': './src/components/ListScreen.jsx'
-        },
+                './ListScreen': './src/components/ListScreen.jsx'
+            },
         shared: {
             ...deps,
             react: {
